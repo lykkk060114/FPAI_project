@@ -1,0 +1,62 @@
+# PL-native input pipeline; startup and periodic full payload validation.
+sys:
+  Version: __3.31__
+  device: axi://zg330aiu?npu=0x40000000&dma=0x80000000
+  mmuMode: true
+  speedMode: false
+  compressFtmp: false
+  ocm_option: -1
+  profile: false
+  run_backend: zg330
+  dump_output: false
+  dump_format: SFB
+  log_path: ../io/output/ftmp
+  SKIP_CAMERA_ERROR: false
+  DEBUG: true
+  DEBUG_FLAGS: 1
+
+pipeline:
+  input: {mode: pl_direct_verified, pipelined: true, verify_every_frames: 300}
+  camera: {vtc: false, width: 1920, height: 1080, fps: 60}
+  display: {type: hdmi, width: 1920, height: 1080, fps: 60}
+  tracker: {enabled: true, target_class: giant_panda, track_buffer: 15}
+  uart: {enabled: true, device: /dev/ttyUSB0, baud: 115200, max_send_hz: 30}
+  classification:
+    backend: zg330
+    json: ./imodel/classifier/ZG/deit_panda_per_head_ZG.json
+    raw: ./imodel/classifier/ZG/deit_panda_per_head_ZG.raw
+    enabled: true
+    model: ./imodel/classifier/deit_tiny_panda_behavior.onnx
+    labels: ./names/panda_behavior.names
+    input_width: 224
+    input_height: 224
+    interval_frames: 5
+    threads: 2
+    confidence: 0.45
+    smoothing_alpha: 0.35
+    roi_padding: 0.08
+  ranging:
+    enabled: true
+    scale_m_px: 207.86430759
+    bias_m: -0.18020989
+    min_distance_m: 0.61000000
+    max_distance_m: 1.21000000
+    smoothing_alpha: 0.35
+  icore:
+    model_family: yolo26
+    model: yolo26_panda_conv
+    jsons: [./imodel/ZG/yolo26_panda_conv_ZG.json]
+    raws: [./imodel/ZG/yolo26_panda_conv_ZG.raw]
+    net_w: 640
+    net_h: 352
+    view_except_op_ids: [0, 1]
+    names: ./names/giant_panda.names
+    conf: 0.50
+    iou_thresh: 0.6
+    multilabel: false
+    number_of_class: 1
+    output_scale: 1.0
+    post_backend: fpga_v2
+    post_cpu_fallback: true
+    fpga_nms: false
+    detpost: false

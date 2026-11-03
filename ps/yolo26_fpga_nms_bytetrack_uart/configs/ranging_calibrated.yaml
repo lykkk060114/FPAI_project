@@ -1,0 +1,8 @@
+# samples=4 rmse_m=0.032253 r2=0.980361
+ranging:
+  enabled: true
+  scale_m_px: 207.86430759
+  bias_m: -0.18020989
+  min_distance_m: 0.61000000
+  max_distance_m: 1.21000000
+  smoothing_alpha: 0.35

@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "backend": "zg330",
+  "note": "ZG330 resident BF16 validated on board: 24 layers, 30-token Chinese fixed behavior prompt with EOS; no CPU neural fallback. Runs after detector exit."
+}
