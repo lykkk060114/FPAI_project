@@ -1,0 +1,270 @@
+{
+  "automatic_screening": "Same-class containment >0.97, smaller/larger area <0.5. Not a verdict of annotation error.",
+  "count": 22,
+  "candidates": [
+    {
+      "image": "detection/images/train/000000002466.jpg",
+      "label": "detection/labels/train/000000002466.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.122107,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002472.jpg",
+      "label": "detection/labels/train/000000002472.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.022479,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002499.jpg",
+      "label": "detection/labels/train/000000002499.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.026061,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002653.jpg",
+      "label": "detection/labels/train/000000002653.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.035875,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002757.jpg",
+      "label": "detection/labels/train/000000002757.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.009806,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002772.jpg",
+      "label": "detection/labels/train/000000002772.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.019993,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002806.jpg",
+      "label": "detection/labels/train/000000002806.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.358414,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002839.jpg",
+      "label": "detection/labels/train/000000002839.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.046347,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002848.jpg",
+      "label": "detection/labels/train/000000002848.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.048208,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000002874.jpg",
+      "label": "detection/labels/train/000000002874.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.052682,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000003104.jpg",
+      "label": "detection/labels/train/000000003104.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.161024,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000003113.jpg",
+      "label": "detection/labels/train/000000003113.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.050174,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/train/000000003198.jpg",
+      "label": "detection/labels/train/000000003198.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.024658,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000002728.jpg",
+      "label": "detection/labels/val/000000002728.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.043171,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000002742.jpg",
+      "label": "detection/labels/val/000000002742.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.02961,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000002856.jpg",
+      "label": "detection/labels/val/000000002856.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.04458,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000002947.jpg",
+      "label": "detection/labels/val/000000002947.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.101119,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000003044.jpg",
+      "label": "detection/labels/val/000000003044.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.120922,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/val/000000003202.jpg",
+      "label": "detection/labels/val/000000003202.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.032082,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/test/000000002569.jpg",
+      "label": "detection/labels/test/000000002569.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.195675,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/test/000000002815.jpg",
+      "label": "detection/labels/test/000000002815.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.223953,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    },
+    {
+      "image": "detection/images/test/000000002836.jpg",
+      "label": "detection/labels/test/000000002836.txt",
+      "reason": "one_same_class_box_contains_another",
+      "box_indices": [
+        0,
+        1
+      ],
+      "contained_fraction": 1.0,
+      "area_ratio": 0.028956,
+      "action": "Manual review only. Could be true overlapping animals or duplicate/mixed-extent annotations. No label changed."
+    }
+  ]
+}

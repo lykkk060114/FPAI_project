@@ -1,0 +1,14 @@
+{
+  "class_to_idx": {
+    "drink": 0,
+    "eat": 1,
+    "rest": 2,
+    "walk": 3
+  },
+  "idx_to_class": {
+    "0": "drink",
+    "1": "eat",
+    "2": "rest",
+    "3": "walk"
+  }
+}

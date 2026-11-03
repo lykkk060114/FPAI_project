@@ -1,0 +1,8 @@
+train: train
+val: val
+nc: 4
+names:
+  0: drink
+  1: eat
+  2: rest
+  3: walk

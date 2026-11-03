@@ -1,0 +1,84 @@
+{
+  "detection_split": {
+    "method": "Available Web train images deterministically split 85/15 using SHA-256 of seed 20261010 and filename; official Web test is retained unchanged.",
+    "reason": "The official Web.zip is documented as damaged and contains none of the 81 giant-panda images referenced by corrected val annotations.",
+    "counts": {
+      "train": {
+        "images": 483,
+        "boxes": 511
+      },
+      "val": {
+        "images": 85,
+        "boxes": 98
+      },
+      "test": {
+        "images": 163,
+        "boxes": 174
+      }
+    },
+    "warning": "This is a derived training split. Use giant_panda_subset/web for exact official split bookkeeping."
+  },
+  "deep_panda_derivation": {
+    "method": "same-label adjacent AVA intervals with linear bbox interpolation",
+    "frame_mapping": "frame_number = timestamp_seconds * fps + 1",
+    "fps": 30,
+    "stride_frames": 5,
+    "output_size": [
+      224,
+      224
+    ],
+    "padding_each_side_fraction": 0.2,
+    "safe_interval_count": 97,
+    "skipped_transition_or_gap_count": 1,
+    "sample_count": 602,
+    "counts": {
+      "train": {
+        "drink": 25,
+        "eat": 155,
+        "rest": 62,
+        "walk": 211
+      },
+      "val": {
+        "drink": 25,
+        "eat": 31,
+        "rest": 31,
+        "walk": 62
+      }
+    },
+    "split_videos": {
+      "train": [
+        "373",
+        "529",
+        "532",
+        "655",
+        "675",
+        "717",
+        "831",
+        "1036",
+        "1315",
+        "1430",
+        "1516",
+        "1538",
+        "1588",
+        "1705",
+        "1996"
+      ],
+      "val": [
+        "407",
+        "606",
+        "1125",
+        "1628",
+        "1868"
+      ]
+    },
+    "limitations": [
+      "Intermediate boxes are interpolated rather than manually annotated.",
+      "Nearby video frames remain visually correlated even though train and val videos are disjoint.",
+      "Drink has only two source videos, so visual diversity remains limited.",
+      "No frame outside a same-label annotated interval is assigned a class."
+    ]
+  },
+  "classification_mapping_note": "Historical crop CSV class_id differs from current training mapping. The release uses directory names and class_indices.json: drink=0,eat=1,rest=2,walk=3.",
+  "camera_note": "Camera panda images are screen recaptures, not direct captures of live pandas. The capture timestamps are device clock values and not reliable calendar dates.",
+  "split_policy": "Preserve existing sample split assignments exactly. Camera recaptures and online video supplements remain train-only."
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "detection": {
+    "train": {
+      "images": 605,
+      "boxes": 582,
+      "negative_images": 51
+    },
+    "val": {
+      "images": 85,
+      "boxes": 98,
+      "negative_images": 0
+    },
+    "test": {
+      "images": 163,
+      "boxes": 174,
+      "negative_images": 0
+    }
+  },
+  "classification": {
+    "train": {
+      "drink": 194,
+      "eat": 245,
+      "rest": 221,
+      "walk": 215
+    },
+    "val": {
+      "drink": 25,
+      "eat": 33,
+      "rest": 34,
+      "walk": 63
+    }
+  },
+  "total_images": 1883,
+  "image_bytes": 218823986,
+  "largest_image_bytes": 3563665,
+  "source_counts": {
+    "lote_animal": 731,
+    "camera_recordings": 122,
+    "deep_panda": 602,
+    "wikimedia_commons": 27,
+    "lote_behavior": 154,
+    "supplement_20261027": 86,
+    "online_behavior_videos": 161
+  },
+  "exact_byte_duplicate_groups": [],
+  "exact_pixel_duplicate_groups": [],
+  "within_task_cross_split_pixel_duplicates": [],
+  "within_task_cross_split_source_groups": [],
+  "errors": [],
+  "elapsed_seconds": 9.598154,
+  "scope": "Decodability, dimensions, labels, hashes and recorded source groups. Does not certify semantic label accuracy or independent scenes across unknown reuploads."
+}

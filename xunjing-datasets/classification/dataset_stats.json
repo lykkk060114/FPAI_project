@@ -1,0 +1,17 @@
+{
+  "task": "classification",
+  "counts": {
+    "train": {
+      "drink": 194,
+      "eat": 245,
+      "rest": 221,
+      "walk": 215
+    },
+    "val": {
+      "drink": 25,
+      "eat": 33,
+      "rest": 34,
+      "walk": 63
+    }
+  }
+}

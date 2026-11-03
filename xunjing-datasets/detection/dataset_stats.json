@@ -1,0 +1,20 @@
+{
+  "task": "detection",
+  "counts": {
+    "train": {
+      "images": 605,
+      "boxes": 582,
+      "negative_images": 51
+    },
+    "val": {
+      "images": 85,
+      "boxes": 98,
+      "negative_images": 0
+    },
+    "test": {
+      "images": 163,
+      "boxes": 174,
+      "negative_images": 0
+    }
+  }
+}
