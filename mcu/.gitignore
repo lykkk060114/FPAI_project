@@ -1,0 +1,81 @@
+# Keil uVision: this project's generated target output directory.
+/MDK-ARM/The_Tank/
+Objects/
+Listings/
+
+# Compiler, linker and assembler output (Arm / GCC / desktop tools).
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.iex
+*.su
+*.slo
+*.sdf
+*.gcda
+*.gcno
+*.gcov
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.build_log.htm
+
+# Common build directories and Python / PyInstaller output.
+build/
+dist/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+__pycache__/
+*.py[cod]
+*.spec
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local editor state, logs and temporary files.
+.vscode/
+.idea/
+.vs/
+*.uvguix.*
+*.uvgui.*
+*.uvopt
+*.uvgui
+*.uvmpw
+*.log
+*.lock
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Submission archives generated in the project root.
+/The_Tank_Technical_Materials*.zip
+
+# Keep source configuration: .ioc, .mxproject, .uvprojx, .uvoptx,
+# RTE headers, DebugConfig, and custom linker scripts (.sct/.ld/.icf).
+# The auto-generated scatter file in /MDK-ARM/The_Tank/ is excluded above.

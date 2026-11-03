@@ -95,4 +95,110 @@ Testing/
 *.log
 *.pid
 
-# Add MCU/PL-specific rules when those projects are imported.
+# MCU: rules supplied with the imported project, scoped to /mcu/.
+# Keil uVision: this project's generated target output directory.
+/mcu/MDK-ARM/The_Tank/
+/mcu/**/Objects/
+/mcu/**/Listings/
+
+# Compiler, linker and assembler output (Arm / GCC / desktop tools).
+/mcu/**/*.o
+/mcu/**/*.obj
+/mcu/**/*.d
+/mcu/**/*.dep
+/mcu/**/*.crf
+/mcu/**/*.axf
+/mcu/**/*.elf
+/mcu/**/*.hex
+/mcu/**/*.bin
+/mcu/**/*.map
+/mcu/**/*.lst
+/mcu/**/*.lnp
+/mcu/**/*.iex
+/mcu/**/*.su
+/mcu/**/*.slo
+/mcu/**/*.sdf
+/mcu/**/*.gcda
+/mcu/**/*.gcno
+/mcu/**/*.gcov
+/mcu/**/*.a
+/mcu/**/*.lib
+/mcu/**/*.dll
+/mcu/**/*.so
+/mcu/**/*.dylib
+/mcu/**/*.exe
+/mcu/**/*.pdb
+/mcu/**/*.ilk
+/mcu/**/*.idb
+/mcu/**/*.exp
+/mcu/**/*.build_log.htm
+
+# Common build directories and Python / PyInstaller output.
+/mcu/**/build/
+/mcu/**/dist/
+/mcu/**/Debug/
+/mcu/**/Release/
+/mcu/**/cmake-build-*/
+/mcu/**/CMakeFiles/
+/mcu/**/CMakeCache.txt
+/mcu/**/compile_commands.json
+/mcu/**/__pycache__/
+/mcu/**/*.py[cod]
+/mcu/**/*.spec
+/mcu/**/.pytest_cache/
+/mcu/**/.mypy_cache/
+/mcu/**/.ruff_cache/
+/mcu/**/.venv/
+/mcu/**/venv/
+
+# Local editor state, logs and temporary files.
+/mcu/**/.vscode/
+/mcu/**/.idea/
+/mcu/**/.vs/
+/mcu/**/*.uvguix.*
+/mcu/**/*.uvgui.*
+/mcu/**/*.uvopt
+/mcu/**/*.uvgui
+/mcu/**/*.uvmpw
+/mcu/**/*.log
+/mcu/**/*.lock
+/mcu/**/*.tmp
+/mcu/**/*.bak
+/mcu/**/*.swp
+/mcu/**/*.swo
+/mcu/**/*~
+/mcu/**/.DS_Store
+/mcu/**/Thumbs.db
+/mcu/**/Desktop.ini
+
+# Submission archives generated in the project root.
+/mcu/The_Tank_Technical_Materials*.zip
+
+# Keep source configuration: .ioc, .mxproject, .uvprojx, .uvoptx,
+# RTE headers, DebugConfig, and custom linker scripts (.sct/.ld/.icf).
+# The auto-generated scatter file in /MDK-ARM/The_Tank/ is excluded above.
+
+# PL: rules supplied with the imported project, scoped to /pl/.
+# Recreated by Vivado/XSim; the submission retains source IP and vendor netlists.
+/pl/**/.Xil/
+/pl/**/*.cache/
+/pl/**/*.hw/
+/pl/**/*.runs/
+/pl/**/*.sim/
+/pl/**/*.ip_user_files/
+/pl/**/*.xpr.lck
+/pl/**/*.xpr.backup
+/pl/**/*.jou
+/pl/**/*.log
+/pl/**/verification/sim/
+/pl/**/verification/logs/
+/pl/**/verification/reports/
+/pl/**/output/
+/pl/**/reference_build_*/
+/pl/**/min_area_pfile.tmp
+
+# Vendor simulation dependencies supplied with the PL IP; not local build output.
+!/pl/fpai_demo_vivado_fixed.srcs/sources_1/bd/ps_ai/ip/ps_ai_processing_system7_0_0/sim/libps7.so
+!/pl/fpai_demo_vivado_fixed.srcs/sources_1/bd/ps_ai/ip/ps_ai_processing_system7_0_0/sim/libremoteport.so
+!/pl/PS_AI IP/processing_system7_v5_5/sim/libps7.so
+!/pl/PS_AI IP/processing_system7_v5_5/sim/libremoteport.so

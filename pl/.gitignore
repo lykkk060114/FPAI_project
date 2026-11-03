@@ -1,0 +1,17 @@
+# Recreated by Vivado/XSim; the submission retains source IP and vendor netlists.
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.xpr.lck
+*.xpr.backup
+*.jou
+*.log
+verification/sim/
+verification/logs/
+verification/reports/
+output/
+reference_build_*/
+min_area_pfile.tmp
